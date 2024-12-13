@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root[dir="rtl"] {
+    --font-family-arabic: var(--font-noto-naskh-arabic), system-ui, sans-serif;
+  }
+}
+
+/* RTL specific styles */
+[dir="rtl"] {
+  font-family: var(--font-family-arabic);
+}
+
+[dir="rtl"] * {
+  letter-spacing: 0;
+}
+
+/* Arabic typography improvements */
+[dir="rtl"] h1, 
+[dir="rtl"] h2, 
+[dir="rtl"] h3, 
+[dir="rtl"] h4, 
+[dir="rtl"] h5, 
+[dir="rtl"] h6 {
+  font-family: var(--font-family-arabic);
+  line-height: 1.6;
+}
+
+[dir="rtl"] p {
+  line-height: 1.8;
+}
+
+/* Arabic specific spacing */
+[dir="rtl"] .nav-item {
+  margin-left: 0;
+  margin-right: 1.5rem;
+}
+
+/* Custom Arabic color palette */
+:root {
+  --primary-arabic: 200 70% 30%;
+  --secondary-arabic: 35 85% 45%;
+  --accent-arabic: 15 75% 50%;
+}
+
+.arabic-primary {
+  color: hsl(var(--primary-arabic));
+}
+
+.arabic-secondary {
+  color: hsl(var(--secondary-arabic));
+}
+
+.arabic-accent {
+  color: hsl(var(--accent-arabic));
+}

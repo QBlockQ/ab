@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/ar/page": "app/ar/page.js",
+  "/ar/property/page": "app/ar/property/page.js",
+  "/ar/property/[id]/page": "app/ar/property/[id]/page.js"
+}
