@@ -65,4 +65,8 @@ NEXT_PUBLIC_CONTRACT_NAME=<your-contract-name>
 
 ## License
 
-This project is licensed under the MIT License.
+Copyright (C) 2024 QBlock. All rights reserved.
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) with additional terms.
+Any use, modification, or distribution of this software requires explicit written permission from QBlock.
+See the [LICENSE](LICENSE) file for details.
