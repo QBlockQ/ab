@@ -49,7 +49,7 @@ npm run dev
 Create a `.env.local` file with the following variables (replace with your own values):
 
 ```env
-NEXT_PUBLIC_NETWORK=<mainnet or testnet>
+NEXT_PUBLIC_NETWORK=<mainnet o
 NEXT_PUBLIC_STACKS_API_URL=<your-stacks-api-url>
 NEXT_PUBLIC_CONTRACT_ADDRESS=<your-contract-address>
 NEXT_PUBLIC_CONTRACT_NAME=<your-contract-name>
