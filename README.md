@@ -46,13 +46,13 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env.local` file with:
+Create a `.env.local` file with the following variables (replace with your own values):
 
 ```env
-NEXT_PUBLIC_NETWORK=mainnet
-NEXT_PUBLIC_STACKS_API_URL=https://stacks-node-api.mainnet.stacks.co
-NEXT_PUBLIC_CONTRACT_ADDRESS=SP2J6ZY48GV1EZ5V2V5RB9MP66SW86PYKKNRV9EJ7
-NEXT_PUBLIC_CONTRACT_NAME=property-token
+NEXT_PUBLIC_NETWORK=<mainnet or testnet>
+NEXT_PUBLIC_STACKS_API_URL=<your-stacks-api-url>
+NEXT_PUBLIC_CONTRACT_ADDRESS=<your-contract-address>
+NEXT_PUBLIC_CONTRACT_NAME=<your-contract-name>
 ```
 
 ## Contributing
